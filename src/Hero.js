@@ -1,4 +1,5 @@
 import "./Hero.css";
+import Kynd from "./img/kynd-logo.png";
 
 export default function Hero() {
   return (
@@ -6,39 +7,25 @@ export default function Hero() {
       <div className="direction">
         Hardstrasse 243 8005, Zürich | Montag- Freitag 11:00 - 14:00 Uhr
       </div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            Navbar
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">
-                Home
-              </a>
-              <a class="nav-link" href="#">
-                Features
-              </a>
-              <a class="nav-link" href="#">
-                Pricing
-              </a>
-              <a class="nav-link disabled" aria-disabled="true">
-                Disabled
-              </a>
-            </div>
-          </div>
+
+      <nav class="navbar">
+        <div class="logo">
+          <img src={Kynd} alt="Logo de la empresa" />
         </div>
+        <ul class="nav-links">
+          <li>
+            <a href="#pagina1">Pagina 1</a>
+          </li>
+          <li>
+            <a href="#pagina2">Pagina 2</a>
+          </li>
+          <li>
+            <a href="#pagina3">Pagina 3</a>
+          </li>
+          <li>
+            <a href="#pagina4">Pagina 4</a>
+          </li>
+        </ul>
       </nav>
     </section>
   );
