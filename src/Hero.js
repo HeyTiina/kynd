@@ -24,10 +24,12 @@ export default function Hero() {
           </li>
         </ul>
       </nav>
+      <div>
         <img src={Bagel} alt="Bagel" className="bagel" />
-      <div className="title">
-        <h1>KYND</h1>
-        <h2>We serve kyndness</h2>
+        <div className="title">
+          <h1>KYND</h1>
+          <h2>We serve kyndness</h2>
+        </div>
       </div>
     </section>
   );

@@ -46,8 +46,8 @@
 /* NAVBAR */
 
 .bagel {
-  width: 500px;
-  position: absolute;
+  width: 531px;
+  position: relative;
   left: 47%;
   transform: translateX(-50%);
 }
