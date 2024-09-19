@@ -1,10 +1,11 @@
-import "./Introduction.css";
+import "./Philosophie.css";
 
-export default function introduction() {
+export default function Philosophie() {
   return (
- 
+    <section  className="Philosophie"></section>
   );
 }
+
 
 
 
