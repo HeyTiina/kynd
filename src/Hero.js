@@ -17,7 +17,7 @@ export default function Hero() {
             <a href="#pagina2">CATERING & EVENTS</a>
           </li>
           <li>
-            <a href="#pagina3">KONTAK</a>
+            <a href="#pagina3">KONTAKT</a>
           </li>
           <li>
             <a href="#pagina4">ÜBER UNS</a>
