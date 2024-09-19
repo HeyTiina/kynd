@@ -5,3 +5,18 @@ export default function introduction() {
  
   );
 }
+
+
+
+.bagel {
+  max-width: 300px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; 
+}
+
+
+  font-family: "Montserrat", sans-serif;
+
+    font-family: "Libre Baskerville", serif;

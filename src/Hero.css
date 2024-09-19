@@ -7,10 +7,12 @@
   letter-spacing: 0.05em;
 }
 
+/* NAVBAR */
+
 .navbar {
   display: flex;
   align-items: center;
-  padding: 1rem;
+  padding: 30px 0px 10px 80px;
 }
 
 .logo {
@@ -19,7 +21,6 @@
 
 .logo img {
   width: 180px;
-  height: 100px;
 }
 
 .nav-links {
@@ -34,10 +35,42 @@
 }
 
 .nav-links a {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
 .nav-links a:hover {
   color: #ccc;
+}
+
+/* NAVBAR */
+
+.bagel {
+  width: 400px;
+  position: absolute;
+  left: 47%;
+  transform: translateX(-50%);
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
+
+.title h1 {
+    font-size: 150px;
+    padding: 0;
+    margin: 0;
+}
+
+.title h2 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
 }
