@@ -1,0 +1,30 @@
+.catering-bagel {
+  width: 531px;
+  margin-left: 60%;
+}
+
+.catering-title {
+  position: absolute;
+  margin-top: -20%;
+  margin-left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.catering-title h1 {
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  font-size: 80px;
+}
+
+.catering-title a {
+  text-decoration: none; /* remove default underline */
+  border: 1px solid black; /* add 1px black border */
+  color: #000; /* set text color to black (optional) */
+  padding: 20px;
+}
+
+.catering-title a:hover {
+  text-decoration: underline; /* add underline on hover (optional) */
+}

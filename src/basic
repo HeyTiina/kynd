@@ -2,22 +2,14 @@ import "./Philosophie.css";
 
 export default function Philosophie() {
   return (
-    <section  className="Philosophie"></section>
+    <section  className="Philosophie">
+    
+    </section>
   );
 }
 
 
 
+font-family: "Montserrat", sans-serif;
 
-.bagel {
-  max-width: 300px;
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1; 
-}
-
-
-  font-family: "Montserrat", sans-serif;
-
-    font-family: "Libre Baskerville", serif;
+font-family: "Libre Baskerville", serif;
