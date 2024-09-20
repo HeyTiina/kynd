@@ -2,7 +2,7 @@
   background-color: white;
 }
 
-.grid-container-philosoph {
+.container-philosoph {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center; /* center horizontally */
@@ -37,7 +37,7 @@ h2 {
   text-decoration: underline; /* add underline on hover (optional) */
 }
 
-.grid-container-philosoph img {
+.container-philosoph img {
   width: 100%;
   height: 600px;
 }

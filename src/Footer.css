@@ -1,0 +1,21 @@
+.footer {
+  background-color: #242323;
+  color: white;
+  padding: 50px;
+}
+
+.container-footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: ;
+}
+
+.container-documents {
+  display: flex;
+  margin-top: 80px;
+}
+
+.container-documents a {
+    margin-right: 80px;
+}
+

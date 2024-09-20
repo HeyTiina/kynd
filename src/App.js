@@ -3,6 +3,8 @@ import Philosoph from './Philosoph';
 import Hero from "./Hero";
 import Catering from './Catering';
 import Menu from "./Menu";
+import Footer from "./Footer";
+
 
 
 function App() {
@@ -13,6 +15,7 @@ function App() {
         <Philosoph />
         <Catering />
         <Menu />
+        <Footer />
       </header>
     </div>
   );
