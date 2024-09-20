@@ -16,7 +16,7 @@ export default function Philosoph() {
             schaffen. Für uns steht Kyndness für Menschlichkeit, Nachhaltigkeit,
             Selbstliebe, Lokalität und Gesundheit. Jede Handlung von Kynd
             basiert auf dem Grundsatz: Sei Kynd, wann immer es möglich ist. Es
-            ist immer möglich."
+            ist immer möglich.
           </p>
           <a>ÜBER UNS</a>
         </div>

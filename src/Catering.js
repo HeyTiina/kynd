@@ -8,7 +8,7 @@ export default function Catering() {
         <img src={Bagel} alt="Bagel" className="catering-bagel" />
         <div className="catering-title">
           <h1>CATERING & EVENTS</h1>
-          <a>kONTAKTIEREN SIE UNS</a>
+          <a>KONTAKTIEREN SIE UNS</a>
         </div>
       </div>
     </section>
