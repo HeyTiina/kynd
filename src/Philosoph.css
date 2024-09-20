@@ -1,7 +1,42 @@
-.Philosoph {
-    background-color: white;
+.philosoph {
+  background-color: white;
 }
 
-img{
-    width: 200px;
+.grid-container-philosoph {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center; /* center horizontally */
+  align-items: center; /* center vertically */
+}
+
+.phisoloph-description {
+  text-align: center; /* center text horizontally */
+  margin: 80px;
+}
+
+.philosoph h1,
+h2 {
+  font-family: "Libre Baskerville", serif;
+}
+
+.philosoph p {
+  line-height: 1.5; /* adds 50% more space between lines */
+  text-align: left;
+  margin: 40px 0;
+}
+
+.philosoph a {
+  text-decoration: none; /* remove default underline */
+  border: 1px solid black; /* add 1px black border */
+  color: #000; /* set text color to black (optional) */
+  padding: 20px;
+}
+
+.philosoph a:hover {
+  text-decoration: underline; /* add underline on hover (optional) */
+}
+
+.grid-container-philosoph img {
+  width: 100%;
+  height: 600px;
 }
