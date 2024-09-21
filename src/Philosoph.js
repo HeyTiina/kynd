@@ -18,7 +18,7 @@ export default function Philosoph() {
             basiert auf dem Grundsatz: Sei Kynd, wann immer es möglich ist. Es
             ist immer möglich.
           </p>
-          <a>ÜBER UNS</a>
+          <a href="###">ÜBER UNS</a>
         </div>
       </div>
     </section>
