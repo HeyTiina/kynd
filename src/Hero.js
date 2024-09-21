@@ -4,10 +4,6 @@ import Bagel from "./img/bagel.png";
 export default function Hero() {
   return (
     <section className="hero">
-      <div className="direction">
-        Zürich Altstetten Bahnhof, 8048 Zúrich | Montag- Freitag 11:00 - 14:00
-        Uhr
-      </div>
 
       <nav class="navbar">
         <ul class="nav-links">

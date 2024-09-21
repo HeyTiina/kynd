@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="location">
           <h1>ÖFFNUNGSZEITEN</h1>
           <a>
-            Montag bis Freitag <br></br> 06:30 - 09:00 / 11:00 - 14:30 Uhr
+            Montag bis Freitag <br></br>11:00 - 14:30 Uhr
           </a>
         </div>
       </div>
