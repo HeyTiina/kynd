@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "./Main.css";
 import Bagel from "./img/bagel.png";
 import { Link } from "react-router-dom";
 

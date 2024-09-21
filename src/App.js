@@ -1,7 +1,7 @@
 import "./App.css";
 
 import Philosoph from "./Philosoph";
-import Hero from "./Hero";
+import Main from "./Main";
 import Catering from "./Catering";
 import Menu from "./Menu";
 import Footer from "./Footer";
@@ -19,7 +19,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
           <Direction />
-          <Hero />
+          <Main />
           <Philosoph />
           <Catering />
           <Menu />
