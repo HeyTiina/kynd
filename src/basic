@@ -8,6 +8,8 @@ export default function Philosophie() {
   );
 }
 
+  <Route path="/" exact component={HomeScreen} />
+
 
 
 font-family: "Montserrat", sans-serif;
