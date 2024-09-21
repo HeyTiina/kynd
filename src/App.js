@@ -16,25 +16,22 @@ import UberUnsScreen from "./Screens/UberUnsScreen";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Direction />
-        <BrowserRouter>
+    <BrowserRouter>
+      <div className="App">
+          <Direction />
           <Hero />
+          <Philosoph />
+          <Catering />
+          <Menu />
+          <Footer />
           <Routes>
             <Route path="/MenuScreen" element={<MenuScreen />} />
             <Route path="/CateringScreen" element={<CateringScreen />} />
             <Route path="/KontaktScreen" element={<KontaktScreen />} />
             <Route path="/UberUnsScreen" element={<UberUnsScreen />} />
           </Routes>
-
-          <Philosoph />
-          <Catering />
-          <Menu />
-          <Footer />
-        </BrowserRouter>
-      </header>
-    </div>
+        </div>
+    </BrowserRouter>
   );
 }
 

@@ -16,37 +16,5 @@ font-family: "Montserrat", sans-serif;
 
 font-family: "Libre Baskerville", serif;
 
-<ul className="nav-links">
-          <li>
-            <Link to="/MenuScreen">MENÜ</Link>
-          </li>
-          <li>
-            <Link to="/CateringScreen">CATERING & EVENTS</Link>
-          </li>
-          <li>
-            <Link to="/KontaktScreen">KONTAKT</Link>
-          </li>
-          <li>
-            <Link to="/UberUnsScreen">ÜBER UNS</Link>
-          </li>
-        </ul>
 
 
-        const links = [
-  {
-    name: "Menu",
-    href: "/MenuScreen",
-  },
-  {
-    name: "Catering",
-    href: "/CateringScreen",
-  },
-  {
-    name: "Kontakt",
-    href: "/KontaktScreen",
-  },
-  {
-    name: "UberUns",
-    href: "/UberUnsScreen",
-  },
-];
