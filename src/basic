@@ -10,7 +10,7 @@ export default function Philosophie() {
 
   <Route path="/" exact component={HomeScreen} />
 
-
+rafce para crear componente
 
 font-family: "Montserrat", sans-serif;
 

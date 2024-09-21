@@ -1,23 +1,24 @@
 import "./Hero.css";
 import Bagel from "./img/bagel.png";
+import { Link } from "react-router-dom";
+
 
 export default function Hero() {
   return (
     <section className="hero">
-
       <nav class="navbar">
         <ul class="nav-links">
           <li>
-            <a href="#pagina1">MENÜ</a>
+            <Link to="/MenuScreen">MENÜ</Link>
           </li>
           <li>
-            <a href="#pagina2">CATERING & EVENTS</a>
+            <Link to="/CateringScreen">CATERING & EVENTS</Link>
           </li>
           <li>
-            <a href="#pagina3">KONTAKT</a>
+            <Link to="/KontaktScreen">KONTAKT</Link>
           </li>
           <li>
-            <a href="#pagina4">ÜBER UNS</a>
+            <Link to="/UberUnsScreen">ÜBER UNS</Link>
           </li>
         </ul>
       </nav>
