@@ -18,20 +18,20 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Direction />
         <BrowserRouter>
-          <Direction />
           <Hero />
+          <Routes>
+            <Route path="/MenuScreen" element={<MenuScreen />} />
+            <Route path="/CateringScreen" element={<CateringScreen />} />
+            <Route path="/KontaktScreen" element={<KontaktScreen />} />
+            <Route path="/UberUnsScreen" element={<UberUnsScreen />} />
+          </Routes>
+
           <Philosoph />
           <Catering />
           <Menu />
           <Footer />
-
-          <Routes>
-            <Route path="/MenuScreen" component={MenuScreen} />
-            <Route path="/CateringScreen" component={CateringScreen} />
-            <Route path="/KontaktScreen" component={KontaktScreen} />
-            <Route path="/UberUnsScreen" component={UberUnsScreen} />
-          </Routes>
         </BrowserRouter>
       </header>
     </div>

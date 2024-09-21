@@ -1,5 +1,9 @@
+import React from 'react'
 
-
-export default function MenuScreen() {
-  return <section className="MenuScreen">TEXT</section>;
+const MenuScreen = () => {
+  return (
+    <div>MenuScreen</div>
+  )
 }
+
+export default MenuScreen

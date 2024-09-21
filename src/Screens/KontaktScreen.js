@@ -1,3 +1,9 @@
-export default function KontaktScreen() {
-  return <section className="KontaktScreen">TEXT</section>;
+import React from 'react'
+
+const KontaktScreen = () => {
+  return (
+    <div>KontaktScreen</div>
+  )
 }
+
+export default KontaktScreen

@@ -1,4 +1,9 @@
+import React from 'react'
 
-export default function CateringScreen() {
-  return <section className="CateringScreen">TEXT</section>;
+const CateringScreen = () => {
+  return (
+    <div>CateringScreen</div>
+  )
 }
+
+export default CateringScreen

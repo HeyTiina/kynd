@@ -6,8 +6,8 @@ import { Link } from "react-router-dom";
 export default function Hero() {
   return (
     <section className="hero">
-      <nav class="navbar">
-        <ul class="nav-links">
+      <nav className="navbar">
+        <ul className="nav-links">
           <li>
             <Link to="/MenuScreen">MENÜ</Link>
           </li>
