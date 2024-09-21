@@ -1,6 +1,9 @@
 import "./Main.css";
 import Bagel from "./img/bagel.png";
 import { Link } from "react-router-dom";
+import Catering from "./Catering";
+import Menu from "./Menu";
+import Philosoph from "./Philosoph";
 
 
 export default function Hero() {
@@ -29,6 +32,9 @@ export default function Hero() {
           <h2>We serve kyndness</h2>
         </div>
       </div>
+      <Philosoph />
+      <Catering />
+      <Menu />
     </section>
   );
 }

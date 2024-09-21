@@ -1,3 +1,4 @@
+import Direction from "./Direction";
 import "./Philosophie.css";
 
 export default function Philosophie() {
@@ -17,4 +18,5 @@ font-family: "Montserrat", sans-serif;
 font-family: "Libre Baskerville", serif;
 
 
-
+* Navigacion arreglada, ahora solo salen el footer y la Direction. Necesito que el navbar sea un componente aparte, por ello quiero 
+crear una carpeta para los componentes fijos. direction, navbar y Footer. Luego seguimos con la creación de de las nuevas páginas. 
