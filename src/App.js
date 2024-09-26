@@ -9,12 +9,14 @@ import MenuScreen from "./Screens/MenuScreen";
 import CateringScreen from "./Screens/CateringScreen";
 import KontaktScreen from "./Screens/KontaktScreen";
 import UberUnsScreen from "./Screens/UberUnsScreen";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Direction />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/MenuScreen" element={<MenuScreen />} />
@@ -22,9 +24,8 @@ function App() {
           <Route path="/KontaktScreen" element={<KontaktScreen />} />
           <Route path="/UberUnsScreen" element={<UberUnsScreen />} />
         </Routes>
-      
+
         <Footer />
-        
       </div>
     </BrowserRouter>
   );
