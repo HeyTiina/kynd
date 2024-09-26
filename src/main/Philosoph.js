@@ -1,5 +1,5 @@
 import "./Philosoph.css";
-import PhilosophieBagel from "./img/PhilosophieBagel.webp";
+import PhilosophieBagel from "../img/PhilosophieBagel.webp";
 
 
 export default function Philosoph() {

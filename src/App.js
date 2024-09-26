@@ -1,7 +1,7 @@
 import "./App.css";
-import Main from "./Hero";
-import Footer from "./Footer";
-import Direction from "./Direction";
+import Main from "./main/Hero";
+import Footer from "./components/Footer";
+import Direction from "./components/Direction";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

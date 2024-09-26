@@ -1,9 +1,8 @@
 import "./Hero.css";
-import Bagel from "./img/bagel.png";
-import Catering from "./main/Catering";
+import Bagel from "../img/bagel.png";
+import Catering from "./Catering";
 import Menu from "./Menu";
 import Philosoph from "./Philosoph";
-
 
 export default function Hero() {
   return (

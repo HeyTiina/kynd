@@ -1,4 +1,4 @@
-import Direction from "./Direction";
+import Direction from "./components/Direction";
 import "./Philosophie.css";
 
 export default function Philosophie() {
