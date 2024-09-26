@@ -4,6 +4,7 @@ import Video from "./img/Video.webp";
 import LokalesWasser from "./img/LokalesWasser-logo.png";
 import Plaza from "./img/Plaza-Logo.png";
 import Kantonal from "./img/Zurcher-Kantonalbank-Logo.png";
+import { Carrusel } from "./Carrusel";
 
 const CateringScreen = () => {
   return (
@@ -38,23 +39,7 @@ const CateringScreen = () => {
         <img src={Video} alt="Video" /> <br />
         <button>JETZT RESERVIEREN</button>
       </div>
-      <div class="carrusel-container">
-        <div class="carrusel">
-          <div class="carrusel-item">
-            <img src="image1.jpg" alt="Imagen 1" />
-          </div>
-          <div class="carrusel-item">
-            <img src="image2.jpg" alt="Imagen 2" />
-          </div>
-          <div class="carrusel-item">
-            <img src="image3.jpg" alt="Imagen 3" />
-          </div>
-        </div>
-        <div class="carrusel-controls">
-          <button class="carrusel-prev">Anterior</button>
-          <button class="carrusel-next">Siguiente</button>
-        </div>
-      </div>
+      <Carrusel />
     </section>
   );
 };
