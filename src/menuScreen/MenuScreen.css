@@ -1,0 +1,76 @@
+.title-menu {
+  color: white;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  margin: 60px;
+}
+
+.title-menu h2 {
+  font-size: 38px;
+  margin: 0;
+}
+
+.title-menu h1 {
+  font-size: 115px;
+  margin: 0;
+}
+
+.bagels {
+    background-color: white;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 120px;
+}
+
+.grid-row {
+  display: contents;
+}
+
+.grid-cell {
+  padding: 20px;
+}
+
+.img-column {
+  margin: 0 auto;
+}
+
+.text-column {
+  width: 90%;
+}
+
+.text-column h1 {
+  border-bottom: 2px solid black;
+  padding: 20px;
+  font-weight: 400;
+}
+
+.text-column p {
+  line-height: 1.5;
+}
+
+.best-sellers {
+  border: 5px solid #bba45b;
+  border-radius: 10px;
+}
+
+.text-column button {
+  background-color: #bba45b;
+  border-color: #bba45b;
+  padding: 20px;
+  color: white;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.vegan {
+    background-color: #7EC77B !important;
+    border-color: #7EC77B !important;
+}

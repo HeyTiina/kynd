@@ -17,6 +17,7 @@ font-family: "Montserrat", sans-serif;
 
 font-family: "Libre Baskerville", serif;
 
+        <img src={Bagel} alt="Bagel" className="catering-bagel" />
 
 * Navigacion arreglada, ahora solo salen el footer y la Direction. 
 Necesito que el navbar sea un componente aparte, por ello quiero 
