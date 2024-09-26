@@ -5,10 +5,10 @@ import Direction from "./components/Direction";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MenuScreen from "./screens/MenuScreen";
-import CateringScreen from "./screens/CateringScreen";
-import KontaktScreen from "./screens/KontaktScreen";
-import UberUnsScreen from "./screens/UberUnsScreen";
+import MenuScreen from "./menuScreen/MenuScreen";
+import CateringScreen from "./cateringScreen/CateringScreen";
+import KontaktScreen from "./kontaktScreen/KontaktScreen";
+import UberUnsScreen from "./uberUnsScreen/UberUnsScreen";
 import Navbar from "./components/Navbar";
 
 function App() {
