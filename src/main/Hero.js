@@ -1,5 +1,5 @@
 import "./Hero.css";
-import Bagel from "../img/bagel.png";
+import Bagel from "./img/bagel.png";
 import Catering from "./Catering";
 import Menu from "./Menu";
 import Philosoph from "./Philosoph";

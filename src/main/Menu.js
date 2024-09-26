@@ -1,5 +1,5 @@
 import "./Menu.css";
-import MenuBagel from "../img/MenuBagel.webp";
+import MenuBagel from "./img/MenuBagel.webp";
 
 
 export default function Menu() {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-import Logo from "../img/kynd-logo.png";
+import Logo from "./kynd-logo.png";
 
 const Navbar = () => {
   return (
