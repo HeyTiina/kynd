@@ -1,14 +1,14 @@
 import "./App.css";
-import Main from "./Main";
+import Main from "./Hero";
 import Footer from "./Footer";
 import Direction from "./Direction";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-import MenuScreen from "./Screens/MenuScreen";
-import CateringScreen from "./Screens/CateringScreen";
-import KontaktScreen from "./Screens/KontaktScreen";
-import UberUnsScreen from "./Screens/UberUnsScreen";
+import MenuScreen from "./screens/MenuScreen";
+import CateringScreen from "./screens/CateringScreen";
+import KontaktScreen from "./screens/KontaktScreen";
+import UberUnsScreen from "./screens/UberUnsScreen";
 import Navbar from "./components/Navbar";
 
 function App() {
