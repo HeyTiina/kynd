@@ -20,7 +20,7 @@ h2 {
 }
 
 .menu p {
-  line-height: 1.5; /* adds 50% more space between lines */
+  line-height: 2; /* adds 50% more space between lines */
   text-align: left;
   margin: 40px 0;
 }
