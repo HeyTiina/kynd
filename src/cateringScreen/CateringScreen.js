@@ -17,12 +17,6 @@ const CateringScreen = () => {
    { url: Review3, title: "forest" },
  ];
 
-  const containerStyles = {
-    width: "500px",
-    height: "280px",
-    margin: "0 auto",
-  };
-
   return (
     <section>
       <div className="title-catering">
@@ -56,7 +50,7 @@ const CateringScreen = () => {
         <button>JETZT RESERVIEREN</button>
       </div>
 
-      <div style={containerStyles}>
+      <div className="container-slides">
         <Slider slides={slides} />
       </div>
     </section>
