@@ -44,7 +44,6 @@ const ImageSlider = ({ slides }) => {
           ❱
         </div>
       </div>
-
       <div style={slideStylesWidthBackground}></div>
       <div className="dots-container">
         {slides.map((slide, slideIndex) => (

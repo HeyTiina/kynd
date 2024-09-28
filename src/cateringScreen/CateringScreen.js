@@ -51,6 +51,7 @@ const CateringScreen = () => {
       </div>
 
       <div className="container-slides">
+        <h1>Unsere Bewertungen</h1>
         <Slider slides={slides} />
       </div>
     </section>

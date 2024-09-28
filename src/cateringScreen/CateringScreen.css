@@ -69,7 +69,15 @@ button {
 
 .container-slides {
   width: 500px;
-  height: 280px;
+  height: 270px;
   margin: 0 auto;
-  padding: 100px;
+  padding: 0px 0 220px 0;
+}
+
+.container-slides h1 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  color: white;
+  padding: 40px 0 10px 0;
+  font-size: 40px;
 }
