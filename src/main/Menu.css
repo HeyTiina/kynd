@@ -2,7 +2,7 @@
     background-color: white;
 }
 
-.grid-container-menu {
+.grid-container-main {
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center; /* center horizontally */
