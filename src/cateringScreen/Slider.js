@@ -5,8 +5,9 @@ const slideStyles = {
   width: "100%",
   height: "100%",
   borderRadius: "10px",
-  backgroundSize: "cover",
+  backgroundSize: "contain",
   backgroundPosition: "center",
+  boxShadow: "2px 4px 6px rgba(0, 0, 0, 0.2)",
 };
 
 const ImageSlider = ({ slides }) => {
@@ -43,6 +44,7 @@ const ImageSlider = ({ slides }) => {
           ❱
         </div>
       </div>
+
       <div style={slideStylesWidthBackground}></div>
       <div className="dots-container">
         {slides.map((slide, slideIndex) => (
