@@ -81,3 +81,10 @@ button {
   padding: 40px 0 10px 0;
   font-size: 40px;
 }
+
+.bagel-cateringScreen {
+  position: absolute;
+  left: 75%;
+  top: 130%;
+  max-width: 300px;
+}
