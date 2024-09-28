@@ -11,6 +11,10 @@ export default function Philosophie() {
 
   <Route path="/" exact component={HomeScreen} />
 
+  import Review1 from "./img/review1.png";
+import Review2 from "./img/review2.png";
+import Review3 from "./img/review3.png";
+
 rafce para crear componente
 
 font-family: "Montserrat", sans-serif;

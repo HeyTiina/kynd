@@ -6,7 +6,23 @@ import Plaza from "./img/Plaza-Logo.png";
 import Kantonal from "./img/Zurcher-Kantonalbank-Logo.png";
 import Slider from "./Slider";
 
+import Review1 from "./img/review1.png";
+import Review2 from "./img/review2.png";
+import Review3 from "./img/review3.png";
+
 const CateringScreen = () => {
+ const slides = [
+   { url: Review1, title: "beach" },
+   { url: Review2, title: "boat" },
+   { url: Review3, title: "forest" },
+ ];
+
+  const containerStyles = {
+    width: "500px",
+    height: "280px",
+    margin: "0 auto",
+  };
+
   return (
     <section>
       <div className="title-catering">
@@ -38,6 +54,10 @@ const CateringScreen = () => {
       <div className="Video">
         <img src={Video} alt="Video" /> <br />
         <button>JETZT RESERVIEREN</button>
+      </div>
+
+      <div style={containerStyles}>
+        <Slider slides={slides} />
       </div>
     </section>
   );
