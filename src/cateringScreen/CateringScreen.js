@@ -4,7 +4,7 @@ import Video from "./img/Video.webp";
 import LokalesWasser from "./img/LokalesWasser-logo.png";
 import Plaza from "./img/Plaza-Logo.png";
 import Kantonal from "./img/Zurcher-Kantonalbank-Logo.png";
-import { Carrusel } from "./Carrusel";
+import Slider from "./Slider";
 
 const CateringScreen = () => {
   return (
@@ -39,7 +39,6 @@ const CateringScreen = () => {
         <img src={Video} alt="Video" /> <br />
         <button>JETZT RESERVIEREN</button>
       </div>
-      <Carrusel />
     </section>
   );
 };

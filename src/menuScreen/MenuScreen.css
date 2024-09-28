@@ -20,55 +20,54 @@
   background-color: white;
 }
 
-.grid-container {
+.grid-container-menu {
   display: grid;
   grid-template-columns: 1fr 2fr;
   gap: 10px;
-  justify-content: center;
-  align-items: center;
   padding: 50px 120px;
 }
 
-.grid-row {
+.grid-row-menu {
   display: contents;
 }
 
-.grid-cell {
-  padding: 20px;
+.grid-cell-menu {
+  padding: 30px;
 }
 
-.img-column {
+.img-column-menu {
   margin: 0 auto;
 }
 
-.text-column {
+.text-column-menu {
   width: 90%;
 }
 
-.text-column h1 {
+.text-column-menu h1 {
   border-bottom: 2px solid black;
-  padding: 20px;
+  padding: 0 0 20px 0;
+  margin: 10px 0 0px 0;
   font-weight: 400;
 }
 
-.text-column p {
+.text-column-menu p {
   line-height: 2;
 }
 
 .best-sellers {
   border: 5px solid #bba45b;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
-.text-column button {
+.text-column-menu button {
   background-color: #bba45b;
   border-color: #bba45b;
   padding: 20px;
   color: white;
   width: 150px;
   border-radius: 10px;
-  box-shadow: none;
   font-family: "Montserrat", sans-serif;
+  margin: 10px 0 0 0;
 }
 
 .vegan {

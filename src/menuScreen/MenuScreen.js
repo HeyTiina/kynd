@@ -14,12 +14,12 @@ const MenuScreen = () => {
         <h1>Bagels</h1>
       </div>
       <div className="bagels">
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="grid-cell img-column best-sellers">
+        <div class="grid-container-menu">
+          <div class="grid-row-menu">
+            <div class="grid-cell-menu img-column-menu best-sellers">
               <img src={HappyFish} alt="HappyFish" className="HappyFish" />
             </div>
-            <div class="grid-cell text-column">
+            <div class="grid-cell-menu text-column-menu">
               <h1>Happy Fish</h1>
               <p>
                 Auf einem Bett aus schweizer Frischkäse und Bio Gurken liegt
@@ -30,11 +30,11 @@ const MenuScreen = () => {
               <button>BEST SELLER</button>
             </div>
           </div>
-          <div class="grid-row">
-            <div class="grid-cell img-column best-sellers">
+          <div class="grid-row-menu">
+            <div class="grid-cell-menu img-column-menu best-sellers">
               <img src={HolyCow} alt="HolyCow" className="HolyCow" />
             </div>
-            <div class="grid-cell text-column">
+            <div class="grid-cell-menu text-column-menu">
               <h1>Holy Cow</h1>
               <p>
                 Würzige schweizer Pastrami trifft auf hausgemachte pickeled
@@ -44,15 +44,15 @@ const MenuScreen = () => {
               <button>BEST SELLER</button>
             </div>
           </div>
-          <div class="grid-row">
-            <div class="grid-cell img-column">
+          <div class="grid-row-menu">
+            <div class="grid-cell-menu img-column-menu">
               <img
                 src={AvocadoFiesta}
                 alt="AvocadoFiesta"
                 className="AvocadoFiesta"
               />
             </div>
-            <div class="grid-cell text-column">
+            <div class="grid-cell-menu text-column-menu">
               <h1>Avocado Fiesta</h1>
               <p>
                 Hier feiert eine Bio homemade Guacamole, mit Tortilla Chips und
@@ -62,15 +62,15 @@ const MenuScreen = () => {
               <button className="vegan">VEGAN</button>
             </div>
           </div>
-          <div class="grid-row">
-            <div class="grid-cell img-column">
+          <div class="grid-row-menu">
+            <div class="grid-cell-menu img-column-menu">
               <img
                 src={OliveYourself}
                 alt="OliveYourself"
                 className="OliveYourself"
               />
             </div>
-            <div class="grid-cell text-column">
+            <div class="grid-cell-menu text-column-menu">
               <h1>Olive Yourself</h1>
               <p>
                 Bio Tomaten und Gurken bilden die Basis für einen Berg an
@@ -79,11 +79,11 @@ const MenuScreen = () => {
               </p>
             </div>
           </div>
-          <div class="grid-row">
-            <div class="grid-cell img-column">
+          <div class="grid-row-menu">
+            <div class="grid-cell-menu img-column-menu">
               <img src={Classic} alt="Classic" className="Classic" />
             </div>
-            <div class="grid-cell text-column">
+            <div class="grid-cell-menu text-column-menu">
               <h1>Classic</h1>
               <p>Schweizer Frischkäse, Zürcher Bagel. Einfach gut.</p>
             </div>
