@@ -77,6 +77,7 @@ const MenuScreen = () => {
                 Selbstliebe gefolgt von Bio Kalamata Oliven und Bio Feta gipfelt
                 das ganze mit einem Topping aus Bio Sprouts und Bio Rucola.
               </p>
+              <button className="vegetarisch">VEGETARISCH</button>
             </div>
           </div>
           <div class="grid-row-menu">
@@ -86,6 +87,7 @@ const MenuScreen = () => {
             <div class="grid-cell-menu text-column-menu">
               <h1>Classic</h1>
               <p>Schweizer Frischkäse, Zürcher Bagel. Einfach gut.</p>
+              <button className="vegetarisch">VEGETARISCH</button>
             </div>
           </div>
         </div>
