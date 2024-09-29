@@ -6,10 +6,10 @@ const Formular = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Wird gesendet..."); // Changed to use ellipsis for better UX
+    setResult("Wird gesendet..."); 
 
     const formData = new FormData(event.target);
-    formData.append("access_key", "660a64a8-afe9-45db-9072-6cf5de4fbaa7"); // Make sure to manage sensitive data securely
+    formData.append("access_key", "660a64a8-afe9-45db-9072-6cf5de4fbaa7"); 
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -25,12 +25,12 @@ const Formular = () => {
         );
         event.target.reset();
       } else {
-        console.error("Error:", data); // Changed log to console.error for better clarity
-        setResult(data.message || "Submission failed, please try again."); // Provide a fallback message
+        console.error("Error:", data); 
+        setResult(data.message || "Submission failed, please try again."); 
       }
     } catch (error) {
-      console.error("Fetch error:", error); // Handle fetch errors
-      setResult("An error occurred. Please try again later."); // User-friendly error message
+      console.error("Fetch error:", error); 
+      setResult("An error occurred. Please try again later."); 
     }
   };
 
@@ -69,7 +69,7 @@ const Formular = () => {
             required
           ></textarea>
         </div>
-        <button type="submit">Send Message</button>
+        <button type="submit">Nachricht senden</button>
         {result && <p className="result-message">{result}</p>}{" "}
       </form>
     </section>
