@@ -29,19 +29,19 @@ const CateringScreen = () => {
           Hochzeit oder Geburtstag – mit KYND Events werden deine Gäste
           glücklich und satt.
         </p>
-        <div class="grid-container">
-          <div class="grid-row">
-            <div class="grid-cell">
+        <div class="grid-container-cateringScreen">
+          <div class="grid-row-cateringScreen">
+            <div class="grid-cell-cateringScreen">
               <img
                 src={LokalesWasser}
                 alt="LokalesWasser"
                 className="special-logo"
               />
             </div>
-            <div class="grid-cell">
+            <div class="grid-cell-cateringScreen">
               <img src={Plaza} alt="Plaza" />
             </div>
-            <div class="grid-cell">
+            <div class="grid-cell-cateringScreen">
               <img src={Kantonal} alt="Kantonal" />
             </div>
           </div>

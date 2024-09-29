@@ -43,24 +43,24 @@ button {
   font-weight: 500;
 }
 
-.grid-container {
+.grid-container-cateringScreen {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   padding: 30px;
   margin: 0;
 }
 
-.grid-row {
+.grid-row-cateringScreen {
   display: contents;
 }
 
-.grid-cell {
+.grid-cell-cateringScreen {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.grid-cell img {
+.grid-cell-cateringScreen img {
   width: 300px;
   object-fit: cover;
 }
