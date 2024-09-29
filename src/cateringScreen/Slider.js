@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./Slider.css";
 
 const slideStyles = {
@@ -29,6 +29,16 @@ const ImageSlider = ({ slides }) => {
     setCurrentIndex(slideIndex);
   };
 
+  useEffect(() => {
+    const interval = setInterval(() => {
+      goToNext();
+    }, 7000); // Cambia la diapositiva cada 2 segundos
+
+    return () => {
+      clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
+    };
+  }, [currentIndex]);
+
   const slideStylesWidthBackground = {
     ...slideStyles,
     backgroundImage: `url(${slides[currentIndex].url})`,
@@ -48,7 +58,7 @@ const ImageSlider = ({ slides }) => {
       <div className="dots-container">
         {slides.map((slide, slideIndex) => (
           <div
-            className="dot"
+            className={`dot ${currentIndex === slideIndex ? "active" : ""}`}
             key={slideIndex}
             onClick={() => goToSlide(slideIndex)}
           >
