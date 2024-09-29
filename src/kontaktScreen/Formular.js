@@ -27,13 +27,11 @@ const Formular = () => {
     }
   };
   return (
-    <section className="Formular">
-      <section className="contact">
-        <form onSubmit={onSubmit}>
-          <h2>Contact Form</h2>
-
+    <section className="contact">
+      <form onSubmit={onSubmit}>
+        <div className="info">
           <div className="input-box">
-            <label>Full Name</label>
+            <label>Full Name</label> <br></br>
             <input
               type="text"
               className="field"
@@ -45,6 +43,7 @@ const Formular = () => {
 
           <div className="input-box">
             <label>Email Address</label>
+            <br></br>
             <input
               type="email"
               className="field"
@@ -53,20 +52,21 @@ const Formular = () => {
               required
             />
           </div>
+        </div>
 
-          <div className="input-box">
-            <label>Your Message</label>
-            <textarea
-              name="message"
-              className="field mess"
-              placeholder="Enter your message"
-              required
-            ></textarea>
-          </div>
+        <div className="input-box">
+          <label>Your Message</label>
+          <br></br>
+          <textarea
+            name="message"
+            className="field mess"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
 
-          <button type="submit">Send Message</button>
-        </form>
-      </section>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
   );
 };
