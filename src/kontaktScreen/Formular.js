@@ -6,24 +6,31 @@ const Formular = () => {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult("Wird gesendet..."); // Changed to use ellipsis for better UX
+
     const formData = new FormData(event.target);
+    formData.append("access_key", "660a64a8-afe9-45db-9072-6cf5de4fbaa7"); // Make sure to manage sensitive data securely
 
-    formData.append("access_key", "660a64a8-afe9-45db-9072-6cf5de4fbaa7");
+    try {
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
 
-    const response = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
+      const data = await response.json();
 
-    const data = await response.json();
-
-    if (data.success) {
-      setResult("Form Submitted Successfully");
-      event.target.reset();
-    } else {
-      console.log("Error", data);
-      setResult(data.message);
+      if (data.success) {
+        setResult(
+          "Ihr Formular wurde erfolgreich eingereicht. Wir werden uns so schnell wie möglich bei Ihnen melden."
+        );
+        event.target.reset();
+      } else {
+        console.error("Error:", data); // Changed log to console.error for better clarity
+        setResult(data.message || "Submission failed, please try again."); // Provide a fallback message
+      }
+    } catch (error) {
+      console.error("Fetch error:", error); // Handle fetch errors
+      setResult("An error occurred. Please try again later."); // User-friendly error message
     }
   };
 
@@ -32,43 +39,39 @@ const Formular = () => {
       <form onSubmit={onSubmit}>
         <div className="info">
           <div className="input-box">
-            <label>Full Name</label> <br />
+            <label htmlFor="name">Ihr Name</label> <br />
             <input
               type="text"
+              id="name"
               className="field"
-              placeholder="Enter your name"
               name="name"
               required
             />
           </div>
 
           <div className="input-box">
-            <label>Email Address</label>
-            <br />
+            <label htmlFor="email">E-Mail-Adresse</label> <br />
             <input
               type="email"
+              id="email"
               className="field"
-              placeholder="Enter your email"
               name="email"
               required
             />
           </div>
         </div>
-
         <div className="input-box">
-          <label>Your Message</label>
-          <br />
+          <label htmlFor="message">Ihre Nachricht</label> <br />
           <textarea
+            id="message"
             name="message"
             className="field mess"
-            placeholder="Enter your message"
             required
           ></textarea>
         </div>
-
         <button type="submit">Send Message</button>
-      </form>{" "}
-    
+        {result && <p className="result-message">{result}</p>}{" "}
+      </form>
     </section>
   );
 };

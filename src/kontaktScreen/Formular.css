@@ -8,7 +8,7 @@ form {
   background-color: white;
   color: black;
   font-family: "Libre Baskerville", serif;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra oscura */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   margin: 50px;
   padding: 50px;
   border-radius: 10px;
@@ -57,5 +57,12 @@ form button {
 }
 
 form button:hover {
-  background-color: #FF66C4;
+  background-color: #ff66c4;
+}
+
+.result-message {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
 }
