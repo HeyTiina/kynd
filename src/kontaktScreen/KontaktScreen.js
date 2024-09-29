@@ -1,5 +1,6 @@
 import React from 'react'
 import "./KontaktScreen.css";
+import Formular from './Formular';
 
 const KontaktScreen = () => {
   return (
@@ -13,6 +14,7 @@ const KontaktScreen = () => {
           machen wir dein Event unvergesslich!
         </p>
       </div>
+      <Formular />
     </section>
   );
 }
