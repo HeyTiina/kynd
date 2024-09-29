@@ -1,19 +1,3 @@
-import Direction from "./components/Direction";
-import "./Philosophie.css";
-
-export default function Philosophie() {
-  return (
-    <section  className="Philosophie">
-    
-    </section>
-  );
-}
-
-  <Route path="/" exact component={HomeScreen} />
-
-  import Review1 from "./img/review1.png";
-import Review2 from "./img/review2.png";
-import Review3 from "./img/review3.png";
 
 rafce para crear componente
 
@@ -21,13 +5,7 @@ font-family: "Montserrat", sans-serif;
 
 font-family: "Libre Baskerville", serif;
 
-        <img src={Bagel} alt="Bagel" className="catering-bagel" />
-
-* Navigacion arreglada, ahora solo salen el footer y la Direction. 
-Necesito que el navbar sea un componente aparte, por ello quiero 
-crear una carpeta para los componentes fijos. direction, navbar y Footer. 
-Luego seguimos con la creación de de las nuevas páginas. 
-
-  font-family: "Libre Baskerville", serif;
-  text-align: center;
-  color: white;
+*quiero que los slides se muevan automaticamente.
+hay que hacer los botones de vegetarianos en el menu bagel
+a lo mejor porner una estrella en el best seller
+y seguir con las paginas

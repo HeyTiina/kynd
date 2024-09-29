@@ -14,21 +14,20 @@ import Review2 from "./img/review2.png";
 import Review3 from "./img/review3.png";
 
 const CateringScreen = () => {
- const slides = [
-   { url: Review1, title: "beach" },
-   { url: Review2, title: "boat" },
-   { url: Review3, title: "forest" },
- ];
+  const slides = [
+    { url: Review1, title: "beach" },
+    { url: Review2, title: "boat" },
+    { url: Review3, title: "forest" },
+  ];
 
   return (
     <section>
       <div className="title-catering">
-        <h1>Events & Caterings</h1>
+        <h1>Caterings & Events</h1>
         <p>
-          KYND Events machen dein Event unvergesslich! Unsere handgemachten
-          Bagels, frisch gebrühter Drip Coffee und erfrischende Kaltgetränke
-          sorgen für Geschmack und Freude. Ob Firmenfeier, Hochzeit oder
-          Geburtstag – mit KYND Events werden deine Gäste glücklich und satt.
+          KYND Events machen dein Event unvergesslich! <br></br>Firmenfeier,
+          Hochzeit oder Geburtstag – mit KYND Events werden deine Gäste
+          glücklich und satt.
         </p>
         <div class="grid-container">
           <div class="grid-row">
