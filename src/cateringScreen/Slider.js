@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import "./Slider.css";
 
 const slideStyles = {
@@ -10,21 +10,20 @@ const slideStyles = {
   boxShadow: "2px 4px 6px rgba(0, 0, 0, 0.2)",
 };
 
-
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const goToPrevious = () => {
+  const goToPrevious = useCallback(() => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
     setCurrentIndex(newIndex);
-  };
+  }, [currentIndex, slides]);
 
-  const goToNext = () => {
+  const goToNext = useCallback(() => {
     const isLastSlide = currentIndex === slides.length - 1;
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
-  };
+  }, [currentIndex, slides]);
 
   const goToSlide = (slideIndex) => {
     setCurrentIndex(slideIndex);
@@ -33,12 +32,12 @@ const ImageSlider = ({ slides }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       goToNext();
-    }, 8000); // Cambia la diapositiva cada 2 segundos
+    }, 8000); // Cambia la diapositiva cada 8 segundos
 
     return () => {
       clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
     };
-  }, [currentIndex]);
+  }, [goToNext]);
 
   const slideStylesWidthBackground = {
     ...slideStyles,
