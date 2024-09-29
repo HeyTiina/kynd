@@ -26,12 +26,13 @@ const Formular = () => {
       setResult(data.message);
     }
   };
+
   return (
     <section className="contact">
       <form onSubmit={onSubmit}>
         <div className="info">
           <div className="input-box">
-            <label>Full Name</label> <br></br>
+            <label>Full Name</label> <br />
             <input
               type="text"
               className="field"
@@ -43,7 +44,7 @@ const Formular = () => {
 
           <div className="input-box">
             <label>Email Address</label>
-            <br></br>
+            <br />
             <input
               type="email"
               className="field"
@@ -56,7 +57,7 @@ const Formular = () => {
 
         <div className="input-box">
           <label>Your Message</label>
-          <br></br>
+          <br />
           <textarea
             name="message"
             className="field mess"
@@ -66,7 +67,8 @@ const Formular = () => {
         </div>
 
         <button type="submit">Send Message</button>
-      </form>
+      </form>{" "}
+    
     </section>
   );
 };
