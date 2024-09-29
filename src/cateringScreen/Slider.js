@@ -10,6 +10,7 @@ const slideStyles = {
   boxShadow: "2px 4px 6px rgba(0, 0, 0, 0.2)",
 };
 
+
 const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -32,7 +33,7 @@ const ImageSlider = ({ slides }) => {
   useEffect(() => {
     const interval = setInterval(() => {
       goToNext();
-    }, 7000); // Cambia la diapositiva cada 2 segundos
+    }, 8000); // Cambia la diapositiva cada 2 segundos
 
     return () => {
       clearInterval(interval); // Limpia el intervalo cuando el componente se desmonta
