@@ -5,7 +5,7 @@ import MenuBagel from "./img/MenuBagel.webp";
 export default function Menu() {
   return (
     <section className="menu">
-      <div className="grid-container-main">
+
         <img src={MenuBagel} alt="Bagel" className="Menu-Bagel" />
         <div className="menu-description">
           <h1>UNSER MENÜ</h1>
@@ -17,7 +17,6 @@ export default function Menu() {
           </p>
           <a href="###">MENÜ</a>
         </div>
-      </div>
     </section>
   );
 }

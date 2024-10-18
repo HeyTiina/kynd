@@ -2,6 +2,8 @@
   background-color: white;
   display: flex;
   align-items: center;
+  height: 650px; /* Ajusta la altura según lo que necesites recortar */
+  overflow: hidden; /* Oculta el contenido que sobrepase */
 }
 
 .phisoloph-description {
