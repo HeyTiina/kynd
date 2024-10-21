@@ -1,5 +1,4 @@
 import "./Catering.css";
-import Bagel from "./img/bagel.png";
 
 export default function Catering() {
   return (
