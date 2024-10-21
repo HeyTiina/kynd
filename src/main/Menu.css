@@ -1,10 +1,8 @@
 .menu {
   background-color: white;
-  justify-items: center; /* center horizontally */
-  align-items: center; /* center vertically */
-  display: flex;
-  height: 650px; /* Ajusta la altura según lo que necesites recortar */
-  overflow: hidden; /* Oculta el contenido que sobrepase */
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr; /* Esto define dos columnas de igual tamaño */
 }
 
 .menu-description {
@@ -36,5 +34,5 @@ h2 {
 }
 
 .menu img {
-  width: 50%;
+  width: 100%;
 }
