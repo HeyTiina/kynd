@@ -1,15 +1,16 @@
-.catering-bagel {
-  width: 531px;
-  margin-left: 60%;
+.catering {
+  height: auto; /* O el tamaño que prefieras */
+  background-image: url("./img/bagel.png"); /* Agrega la ruta de tu imagen aquí */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: 100% 50%; /* Mueve la imagen un 30% a la derecha y mantiene el centro vertical */
+  background-size: 40% auto; /* Ancho de 80px, altura automática */
 }
 
 .catering-title {
-  position: absolute;
-  margin-top: -20%;
-  margin-left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
   color: white;
+  padding: 245px;
 }
 
 .catering-title h1 {
