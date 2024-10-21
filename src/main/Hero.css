@@ -1,30 +1,27 @@
-
-.bagel {
-  width: 521px;
-  position: relative;
-  left: 47%;
-  transform: translateX(-50%);
+.hero {
+  height: auto; 
+  background-image: url("./img/bagel.png"); /* Agrega la ruta de tu imagen aquí */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: 35% auto; 
 }
 
 .title {
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-family: "Libre Baskerville", serif;
-    text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  text-align: center;
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  padding: 11%;
 }
 
 .title h1 {
-    font-size: 150px;
-    padding: 0;
-    margin: 0;
+  font-size: 150px;
+  padding: 0;
+  margin: 0;
 }
 
 .title h2 {
-    font-size: 40px;
-    padding: 0;
-    margin: 0;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
 }
