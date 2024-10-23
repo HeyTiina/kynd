@@ -46,6 +46,7 @@
 .Video img {
   width: 50%;
   border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 button {
@@ -65,5 +66,3 @@ button {
   margin: 0 auto;
   padding: 0px 0 220px 0;
 }
-
-
