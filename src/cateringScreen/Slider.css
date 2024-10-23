@@ -1,3 +1,7 @@
+.slider {
+  margin: px;
+}
+
 .slider h1 {
   font-family: "Libre Baskerville", serif;
   text-align: center;
@@ -9,12 +13,13 @@
 
 .carousel {
   width: 40%; /* Reduce el tamaño del slider, puedes ajustar este valor */
-  margin: 30px auto; /* Para centrar el slider */
+  margin: 0px auto; /* Para centrar el slider */
 }
 
 .carousel-inner {
   border-radius: 10px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  margin-bottom: 60px;
 }
 
 /* Cambiar el color y la opacidad de los controles del carrusel */
