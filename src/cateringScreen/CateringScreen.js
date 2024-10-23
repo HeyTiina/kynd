@@ -2,7 +2,6 @@ import React from "react";
 import "./CateringScreen.css";
 
 import Video from "./img/Video.webp";
-import Bagel from "../main/img/bagel.png";
 
 import LokalesWasser from "./img/LokalesWasser-logo.png";
 import Plaza from "./img/Plaza-Logo.png";
@@ -26,29 +25,23 @@ const CateringScreen = () => {
         <h1>Caterings & Events</h1>
         <p>
           KYND Events machen dein Event unvergesslich! <br></br>Firmenfeier,
-          Hochzeit oder Geburtstag – mit KYND Events werden deine Gäste
-          glücklich und satt.
+          Hochzeit oder Geburtstag mit KYND Events werden deine Gäste glücklich
+          und satt.
         </p>
-        <div class="grid-container-cateringScreen">
-          <div class="grid-row-cateringScreen">
-            <div class="grid-cell-cateringScreen">
-              <img
-                src={LokalesWasser}
-                alt="LokalesWasser"
-                className="special-logo"
-              />
-            </div>
-            <div class="grid-cell-cateringScreen">
-              <img src={Plaza} alt="Plaza" />
-            </div>
-            <div class="grid-cell-cateringScreen">
-              <img src={Kantonal} alt="Kantonal" />
-            </div>
-          </div>
+
+        <div className="companies-logos">
+          <img src={Plaza} alt="Plaza" className="companies-logo" />
+          <img
+            src={LokalesWasser}
+            alt="LokalesWasser"
+            className="companies-logo special"
+          />
+
+          <img src={Kantonal} alt="Kantonal" className="companies-logo" />
         </div>
       </div>
+
       <div className="Video">
-        <img src={Bagel} alt="Bagel" className="bagel-cateringScreen" />
         <img src={Video} alt="Video" /> <br />
         <button>JETZT RESERVIEREN</button>
       </div>
