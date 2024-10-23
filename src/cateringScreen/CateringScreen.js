@@ -37,7 +37,7 @@ const CateringScreen = () => {
         <button>JETZT RESERVIEREN</button>
       </div>
 
-        <Slider/>
+      <Slider />
     </section>
   );
 };

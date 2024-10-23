@@ -41,6 +41,11 @@
   text-align: center;
   background-color: white;
   padding: 50px;
+  background-image: url("../main/img/bagel.png"); /* Agrega la ruta de tu imagen aquí */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: 100% 50%;
+  background-size: 35% auto;
 }
 
 .Video img {
