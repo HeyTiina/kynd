@@ -37,21 +37,23 @@
   width: 100px !important;
 }
 
-.Video {
+.Video-container {
   text-align: center;
   background-color: white;
   padding: 50px;
-  background-image: url("../main/img/bagel.png"); /* Agrega la ruta de tu imagen aquí */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: 100% 50%;
-  background-size: 35% auto;
 }
 
-.Video img {
+.video {
   width: 50%;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.video-bagel {
+  position: absolute;
+  width: 33%;
+  right: 80px;
+  transform: rotate(20deg); /* Rota la imagen 5 grados */
 }
 
 button {

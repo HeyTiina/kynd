@@ -2,6 +2,7 @@ import React from "react";
 import "./CateringScreen.css";
 
 import Video from "./img/Video.webp";
+import bagel from "../main/img/bagel.png";
 
 import LokalesWasser from "./img/LokalesWasser-logo.png";
 import Plaza from "./img/Plaza-Logo.png";
@@ -27,16 +28,15 @@ const CateringScreen = () => {
             alt="LokalesWasser"
             className="companies-logo special"
           />
-
           <img src={Kantonal} alt="Kantonal" className="companies-logo" />
         </div>
       </div>
 
-      <div className="Video">
-        <img src={Video} alt="Video" /> <br />
+      <div className="Video-container">
+        <img src={bagel} alt="bagel" className="video-bagel"></img>
+        <img src={Video} alt="Video" className="video" /> <br />
         <button>JETZT RESERVIEREN</button>
       </div>
-
       <Slider />
     </section>
   );

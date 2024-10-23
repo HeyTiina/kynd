@@ -6,3 +6,9 @@ font-family: "Montserrat", sans-serif;
 font-family: "Libre Baskerville", serif;
 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+
+    background-image: url("../main/img/bagel.png"); /* Agrega la ruta de tu imagen aquí */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: 100% 50%;
+  background-size: 35% auto;
