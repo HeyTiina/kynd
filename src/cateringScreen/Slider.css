@@ -14,6 +14,7 @@
 
 .carousel-inner {
   border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Cambiar el color y la opacidad de los controles del carrusel */
@@ -32,7 +33,6 @@
   left: 90px; /* Mueve el control prev hacia la izquierda */
   position: absolute;
 }
-
 
 .carousel-control-prev-icon:hover,
 .carousel-control-next-icon:hover {
