@@ -47,6 +47,7 @@
   width: 50%;
   border-radius: 20px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  border: 8px solid #242323; /* Borde negro de 2px */
 }
 
 .video-bagel {
