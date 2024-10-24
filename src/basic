@@ -12,3 +12,12 @@ font-family: "Libre Baskerville", serif;
   background-repeat: no-repeat; /* Evita que la imagen se repita */
   background-position: 100% 50%;
   background-size: 35% auto;
+
+  h1 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+  color: white;
+  padding: 40px 0 10px 0;
+  font-size: 40px;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+}
