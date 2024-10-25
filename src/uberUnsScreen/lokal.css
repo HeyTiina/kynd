@@ -1,3 +1,18 @@
 .lokal {
-    background-color: white;
+  background-color: white;
+}
+.container-lokal {
+    padding: 50px;
+}
+.title-lokal p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.title-lokal {
+  font-family: "Libre Baskerville", serif;
+  padding: 40px 0;
+}
+
+.stickers img {
+  width: 300px;
 }
