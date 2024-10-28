@@ -1,0 +1,22 @@
+.bike {
+  background-color: white;
+  padding: 40px 0;
+  border-top: 15px groove #FF66C4; 
+}
+
+.bike h1 {
+  font-family: "Libre Baskerville", serif;
+  text-align: center;
+}
+
+.bike p {
+  text-align: center;
+  padding: 0 200px;
+  margin: 0;
+}
+
+.bike img {
+  display: block;
+  width: 600px;
+  margin: 0px auto;
+}

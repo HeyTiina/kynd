@@ -1,6 +1,8 @@
 import React from "react";
 import "./UberUnsScreen.css";
 import Lokal from "./Lokal.js";
+import Bike from "./Bike.js";
+
 
 
 const UberUnsScreen = () => {
@@ -11,6 +13,7 @@ const UberUnsScreen = () => {
         <h2>Nachhaltige, gesunde und regionale Bagel-Spezialitäten</h2>
       </div>
       <Lokal />
+      <Bike />
     </div>
   );
 };
