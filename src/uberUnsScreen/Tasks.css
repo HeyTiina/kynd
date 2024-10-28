@@ -1,0 +1,19 @@
+.tasks h1 {
+  font-family: "Libre Baskerville", serif;
+  background-image: url("./img/tasks.png"); /* Agrega la ruta de tu imagen aquí */
+  background-position: center; /* Centra la imagen dentro del contenedor */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: 100% 50%;
+  background-size: 35% auto;
+}
+
+.tasks p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.tasks-title {
+  text-align: center;
+  align-items: center;
+}
