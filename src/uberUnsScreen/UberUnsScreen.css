@@ -2,8 +2,8 @@
   font-family: "Libre Baskerville", serif;
   text-align: center;
   color: white;
-  padding: 40px 0;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
+  margin: 60px ;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .title-uber-uns h1 {

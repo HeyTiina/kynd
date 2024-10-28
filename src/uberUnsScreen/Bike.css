@@ -1,7 +1,8 @@
 .bike {
   background-color: white;
-  padding: 40px 0;
-  border-top: 15px groove #FF66C4; 
+  padding: 100px 0;
+  border-top: 15px groove #ff66c4;
+  border-bottom: 15px groove #ff66c4;
 }
 
 .bike h1 {
