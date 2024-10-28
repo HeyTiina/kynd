@@ -7,13 +7,18 @@
   grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
 }
 
+.title-lokal {
+  font-family: "Libre Baskerville", serif;
+  padding: 40px;
+}
+
 .title-lokal p {
   font-family: "Montserrat", sans-serif;
 }
 
-.title-lokal {
-  font-family: "Libre Baskerville", serif;
-  padding: 40px;
+.stickers {
+  display: flex;
+  justify-content: space-evenly; /* Espacio igual entre las imágenes */
 }
 
 .stickers img {
