@@ -10,7 +10,7 @@ const Tasks = () => {
       <img src={Bubble} alt="bubble" className="bubble2"></img>
       <img src={Bubble} alt="bubble" className="bubble3"></img>
       <div className="tasks-title">
-        <h1>Tasks</h1>
+        <h1>KYND Tasks</h1>
         <p>
           Kynd Tasks fördert positive Aktionen der Freundlichkeit und
           Nachhaltigkeit durch anpassbare Aufgaben bei Veranstaltungen, die
