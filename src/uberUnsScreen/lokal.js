@@ -8,7 +8,7 @@ import EatLocal from "./img/local.png";
 const lokal = () => {
   return (
     <div className="lokal">
-      <div className='container-lokal'>
+      <div className="container-lokal">
         <div className="title-lokal">
           <h1>Lokal</h1>
           <p>

@@ -2,15 +2,18 @@
   background-color: white;
 }
 .container-lokal {
-    padding: 50px;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
 }
+
 .title-lokal p {
   font-family: "Montserrat", sans-serif;
 }
 
 .title-lokal {
   font-family: "Libre Baskerville", serif;
-  padding: 40px 0;
+  padding: 40px;
 }
 
 .stickers img {
