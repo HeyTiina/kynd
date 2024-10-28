@@ -2,6 +2,8 @@ import React from "react";
 import "./UberUnsScreen.css";
 import Lokal from "./Lokal.js";
 import Bike from "./Bike.js";
+import Tasks from "./Tasks.js";
+
 
 
 
@@ -14,6 +16,7 @@ const UberUnsScreen = () => {
       </div>
       <Lokal />
       <Bike />
+      <Tasks />
     </div>
   );
 };
