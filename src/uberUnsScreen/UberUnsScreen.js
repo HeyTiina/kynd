@@ -1,6 +1,6 @@
 import React from "react";
 import "./UberUnsScreen.css";
-import Lokal from "./lokal.js";
+import Lokal from "./Lokal.js";
 
 
 const UberUnsScreen = () => {
