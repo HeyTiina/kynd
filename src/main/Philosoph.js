@@ -1,6 +1,8 @@
 import "./Philosoph.css";
 import PhilosophieBagel from "./img/PhilosophieBagel.webp";
 
+import { Link } from "react-router-dom";
+
 export default function Philosoph() {
   return (
     <section className="philosoph">
@@ -17,7 +19,7 @@ export default function Philosoph() {
           Grundsatz: Sei Kynd, wann immer es möglich ist. Es ist immer möglich.
         </p>
 
-        <a href="/uberUnsScreen">ÜBER UNS</a>
+        <Link to="/uberUnsScreen">ÜBER UNS</Link>
       </div>
     </section>
   );
