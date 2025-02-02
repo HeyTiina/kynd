@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Lokal.css";
+import "./lokal.css";
 
 import Bio from "./img/bio.png";
 import EatLocal from "./img/local.png";
