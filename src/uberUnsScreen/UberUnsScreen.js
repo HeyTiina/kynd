@@ -1,6 +1,6 @@
 import React from "react";
 import "./UberUnsScreen.css";
-import Lokal from "./Lokal.js";
+import Lokal from "./lokal.js";
 import Bike from "./Bike.js";
 import Tasks from "./Tasks.js";
 import Owner from "./Owner.js";
