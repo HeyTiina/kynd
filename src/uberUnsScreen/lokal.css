@@ -21,7 +21,6 @@
   display: flex;
   justify-content: space-evenly; /* Espacio igual entre las imágenes */
   padding: 0 50px;
-
 }
 
 .stickers img {

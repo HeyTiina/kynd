@@ -5,7 +5,7 @@ import Bio from "./img/bio.png";
 import EatLocal from "./img/local.png";
 
 
-const lokal = () => {
+const Lokal = () => {
   return (
     <div className="lokal">
       <div className="container-lokal">
@@ -29,4 +29,4 @@ const lokal = () => {
   );
 }
 
-export default lokal
+export default Lokal

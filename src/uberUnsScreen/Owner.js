@@ -3,7 +3,7 @@ import "./Owner.css";
 
 import Raphael from "./img/Raphael.jpg";
 
-const Guy = () => {
+const Owner = () => {
   return (
     <div className="owner">
       <div className="container-owner">
@@ -25,4 +25,4 @@ const Guy = () => {
   );
 };
 
-export default Guy;
+export default Owner;
