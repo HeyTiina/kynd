@@ -10,12 +10,6 @@ font-family: "Libre Baskerville", serif;
     border-bottom: 15px groove #ff66c4;
 
 
-  background-image: url("../main/img/bagel.png"); /* Agrega la ruta de tu imagen aquí */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: 100% 50%;
-  background-size: 35% auto;
-
   h1 {
   font-family: "Libre Baskerville", serif;
   text-align: center;
@@ -32,25 +26,3 @@ font-family: "Libre Baskerville", serif;
   transform: rotate(20deg); 
 }
 
-<div>
-        <h1>UNSER BAGELFAHRRAD</h1>
-        <p>
-          Kynd ist ein mobiles Bagelfahrrad, das sich auf frische, gesunde und
-          regionale Bagel spezialisiert. Wir verwenden nur hochwertige, lokale
-          Zutaten, um jeden Bissen zum Genuss zu machen. Mit unserem Fahrrad
-          kommen wir direkt zu Ihnen und bieten die besten Bagelkreationen der
-          Region an – nachhaltig, lecker und bequem.
-        </p>
-      </div>
-
-
-      LOKAL UN BIO TEXT 
-      Bei Kynd glauben wir an nachhaltige, gesunde und regionale Lebensmittel. Wir sind stolz darauf, unseren Kunden die besten Bagel-Spezialitäten mit frischen, hochwertigen Zutaten anzubieten. Der Großteil unserer Produkte stammt aus biologischem Anbau und wir kooperieren nahezu ausschließlich mit lokalen Partnern. 
-    
-Unser Bagelfahrrad
-
-Das KYND Bagelfahrrad ist nicht nur ein Blickfang, sondern auch eine mobile Küche, die vor Ort frische Bagels zubereitet. Seine Vielseitigkeit und sein charmantes Erscheinungsbild machen es zur perfekten Ergänzung für Events und Caterings, auch das Ambiente wird mit seinem einladenden und unverwechselbaren Stil bereichert.
-
-Kynd Tasks fördert positive Aktionen der Freundlichkeit und Nachhaltigkeit durch anpassbare Aufgaben bei Veranstaltungen, die kostenlos an dem KYND-Automaten erhältlich sind.
-
-Lerne Raphael kennen
