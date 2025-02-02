@@ -9,6 +9,7 @@ import Plaza from "./img/Plaza-Logo.png";
 import Kantonal from "./img/Zurcher-Kantonalbank-Logo.png";
 
 import Slider from "./Slider";
+import { Link } from "react-router-dom";
 
 const CateringScreen = () => {
   return (
@@ -16,9 +17,9 @@ const CateringScreen = () => {
       <div className="title-catering">
         <h1>Caterings & Events</h1>
         <p>
-          KYND Events machen dein Event unvergesslich! <br></br>Firmenfeier,
-          Hochzeit oder Geburtstag mit KYND Events werden deine Gäste glücklich
-          und satt.
+          KYND Events machen dein Event unvergesslich! <br />
+          Firmenfeier, Hochzeit oder Geburtstag mit KYND Events werden deine
+          Gäste glücklich und satt.
         </p>
 
         <div className="companies-logos">
@@ -35,7 +36,7 @@ const CateringScreen = () => {
       <div className="Video-container">
         <img src={bagel} alt="bagel" className="video-bagel"></img>
         <img src={Video} alt="Video" className="video" /> <br />
-        <a href="/kontaktScreen">JETZT RESERVIEREN</a>
+        <Link to="/kontaktScreen">JETZT RESERVIEREN</Link>
       </div>
       <Slider />
     </section>
