@@ -1,5 +1,6 @@
 import React from "react";
-import "./Navbar.css"; // Esto es opcional si quieres mantener estilos personalizados
+import "./Navbar.css"; 
+
 import { Link } from "react-router-dom";
 import Logo from "./kynd-logo.png";
 
