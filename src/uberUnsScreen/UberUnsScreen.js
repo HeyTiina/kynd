@@ -7,7 +7,7 @@ import Owner from "./Owner.js";
 
 const UberUnsScreen = () => {
   return (
-    <div>
+    <div className="UberUnsScreen">
       <div className="title-uber-uns">
         <h1>ÜBER UNS</h1>
         <h2>Nachhaltige, gesunde und regionale Bagel-Spezialitäten</h2>
