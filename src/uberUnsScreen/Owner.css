@@ -13,7 +13,7 @@
 
 .title-owner {
   font-family: "Libre Baskerville", serif;
-  padding: 0 100px;
+  padding: 0 50px;
 }
 
 .title-owner p {
@@ -24,4 +24,5 @@
   width: 500px;
   border-radius: 50px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  margin: 0 100px;
 }
