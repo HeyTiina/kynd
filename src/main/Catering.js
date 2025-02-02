@@ -5,7 +5,7 @@ export default function Catering() {
     <section className="catering">
         <div className="catering-title">
           <h1>CATERING & <br></br> EVENTS</h1>
-          <a href="###">KONTAKTIEREN SIE UNS</a>
+          <a href="/cateringScreen">KONTAKTIEREN SIE UNS</a>
         </div>
     </section>
   );

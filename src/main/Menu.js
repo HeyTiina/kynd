@@ -15,7 +15,7 @@ export default function Menu() {
             Bagel-Spezialitäten. Wir bieten auch vegetarische & vegane Optionen
             und spezielle Angebote für Tiere.
           </p>
-          <a href="###">MENÜ</a>
+          <a href="/menuScreen">MENÜ</a>
         </div>
     </section>
   );
