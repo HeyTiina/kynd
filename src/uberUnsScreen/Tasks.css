@@ -1,44 +1,30 @@
 .tasks {
-  background-image: url("./img/tasks.png"); /* Agrega la ruta de tu imagen aquí */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: 5% 50%;
-  background-size: 14% auto;
-  padding: 150px 0;
+  padding: 100px 00px;
   background-color: white;
+}
+
+.container-tasks {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+  gap: 20px; /* Espaciado entre columnas y filas */
+}
+
+.buMachine {
+  width: 200px;
+  margin: 0 auto;
 }
 
 .tasks-title h1 {
   font-family: "Libre Baskerville", serif;
-  margin: 20px;
 }
 
 .tasks-title {
   text-align: center;
   align-items: center;
-  padding: 0 280px;
 }
 
-.bubble1,
-.bubble2,
-.bubble3 {
-  width: 150px;
-  position: absolute;
-}
-
-.bubble1 {
-  right: 0;
-  transform: translate(-150px, -80px);
-}
-
-.bubble2 {
-  right: 0;
-  width: 120px;
-  transform: translate(-60px, -0px);
-}
-
-.bubble3 {
-  right: 0;
-  transform: translate(-200px, 150px);
-  width: 100px;
+.bubbles {
+width: 200px;
+margin: 0 auto;
 }
