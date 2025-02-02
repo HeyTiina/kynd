@@ -35,7 +35,7 @@ const CateringScreen = () => {
       <div className="Video-container">
         <img src={bagel} alt="bagel" className="video-bagel"></img>
         <img src={Video} alt="Video" className="video" /> <br />
-        <button>JETZT RESERVIEREN</button>
+        <a href="/kontaktScreen">JETZT RESERVIEREN</a>
       </div>
       <Slider />
     </section>
