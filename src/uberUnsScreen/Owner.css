@@ -1,15 +1,27 @@
-.guy {
-  background-image: url("./img/tasks.png"); /* Agrega la ruta de tu imagen aquí */
-  background-position: center; /* Centra la imagen dentro del contenedor */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-position: 5% 50%;
-  background-size: 14% auto;
-  padding: 150px 0;
+.owner {
   background-color: white;
+  border-top: 15px groove #ff66c4;
+}
+
+.container-owner {
+  padding: 100px 50px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between; /* O space-evenly */
+}
+
+.title-owner {
+  font-family: "Libre Baskerville", serif;
+  padding: 0 100px;
+}
+
+.title-owner p {
+  font-family: "Montserrat", sans-serif;
 }
 
 .Raphael {
-  display: block;
-  width: 100px;
-  border-radius: 50%;
+  width: 500px;
+  border-radius: 50px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }

@@ -1,10 +1,11 @@
 .lokal {
   background-color: white;
 }
+
 .container-lokal {
   padding: 100px 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+  display: flex;
+  align-items: center;
 }
 
 .title-lokal {
