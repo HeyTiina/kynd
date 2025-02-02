@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
@@ -13,9 +14,10 @@ export default function Footer() {
 
         <div className="Contact">
           <h1>KONTAKT</h1>
-          <a href="/kontaktScreen">
+          
+          <Link to="/kontaktScreen">
             info@kyndzh.ch <br></br>Tel.: +41 76 58 133 58{" "}
-          </a>
+          </Link>
         </div>
 
         <div className="opening">
