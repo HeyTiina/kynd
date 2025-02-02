@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import Direction from "./components/Direction";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop.js";
 
 import MenuScreen from "./menuScreen/MenuScreen";
 import CateringScreen from "./cateringScreen/CateringScreen";
@@ -17,6 +18,7 @@ function App() {
       <div className="App">
         <Direction />
         <Navbar />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/MenuScreen" element={<MenuScreen />} />
