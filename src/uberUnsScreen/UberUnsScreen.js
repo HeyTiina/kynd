@@ -3,7 +3,7 @@ import "./UberUnsScreen.css";
 import Lokal from "./Lokal.js";
 import Bike from "./Bike.js";
 import Tasks from "./Tasks.js";
-import Guy from "./Guy.js";
+import Owner from "./Owner.js";
 
 const UberUnsScreen = () => {
   return (
@@ -15,7 +15,7 @@ const UberUnsScreen = () => {
       <Lokal />
       <Bike />
       <Tasks />
-      <Guy />
+      <Owner />
     </div>
   );
 };
