@@ -67,3 +67,15 @@ form button:hover {
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
 }
+
+@media (max-width: 1025px) {
+  .info {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 0px;
+  }
+
+  .input-box .field.mess {
+    width: 100%;
+  }
+}
