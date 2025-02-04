@@ -52,8 +52,8 @@
 
 .video-bagel {
   position: absolute;
-  width: 33%;
-  right: 80px;
+  width: 30%;
+  right: 150px;
   transform: rotate(20deg);
 }
 
