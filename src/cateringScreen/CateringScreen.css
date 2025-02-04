@@ -96,3 +96,13 @@
     width: 28%;
   }
 }
+
+@media (max-width: 769px) {
+  .title-catering p {
+    margin: 10px 50px;
+  }
+
+  .companies-logo {
+    width: 200px;
+  }
+}
