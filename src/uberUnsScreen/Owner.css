@@ -13,7 +13,7 @@
 
 .title-owner {
   font-family: "Libre Baskerville", serif;
-  padding: 0 50px;
+  padding: 0 100px;
 }
 
 .title-owner p {
@@ -30,10 +30,20 @@
 @media (max-width: 1025px) {
   .container-owner {
     flex-direction: column;
-    padding: 50px;
+    padding: 50px 30px;
+  }
+  
+  .title-owner {
+    padding: 0px;
   }
 
   .Raphael {
-  margin: 30px 0 auto;
+    margin: 30px 0 auto;
+  }
 }
+
+@media (max-width: 426px) {
+  .Raphael {
+    width: 300px;
+  }
 }
