@@ -34,6 +34,6 @@ font-family: "Libre Baskerville", serif;
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 321px) {
 
 }
