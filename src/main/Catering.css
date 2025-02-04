@@ -38,3 +38,19 @@
     padding: 100px;
   }
 }
+
+@media (max-width: 426px) {
+  .catering-title {
+    padding: 60px;
+  }
+
+  .catering-title h1 {
+    font-size: 40px;
+    margin: 20px 0;
+  }
+
+  .catering-title a {
+    font-size: 10px;
+    margin: 50px;
+  }
+}
