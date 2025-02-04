@@ -40,7 +40,6 @@ h2 {
 @media (max-width: 1025px) {
   .philosoph {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 0.1fr auto;
     padding: 20px;
   }
 
@@ -53,5 +52,16 @@ h2 {
 
   .phisoloph-description {
     margin: 40px;
+  }
+}
+
+@media (max-width: 769px) {
+  .philosoph {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .philosoph img {
+    width: 50%;
   }
 }
