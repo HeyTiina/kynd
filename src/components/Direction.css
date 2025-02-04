@@ -8,8 +8,15 @@
 }
 
 @media (max-width: 426px) {
-.direction {
+  .direction {
     font-size: 16px;
-}
-}
+  }
 
+  .title h1 {
+    font-size: 90px;
+  }
+
+  .title h2 {
+    font-size: 50px;
+  }
+}
