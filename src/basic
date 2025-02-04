@@ -26,3 +26,10 @@ font-family: "Libre Baskerville", serif;
   transform: rotate(20deg); 
 }
 
+
+@media (max-width: 1025px) {
+  .container-lokal {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+}
