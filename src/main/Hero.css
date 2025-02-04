@@ -25,3 +25,9 @@
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 1025px) {
+    .hero {
+        background-size: 50% auto; 
+    }
+}
