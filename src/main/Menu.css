@@ -53,12 +53,4 @@ h2 {
   }
 }
 
-@media (max-width: 769px) {
-  .title {
-    padding: 20px 0;
-  }
 
-  .title h1 {
-    font-size: 180px;
-  }
-}
