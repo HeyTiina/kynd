@@ -33,3 +33,13 @@
     padding: 50px 20px;
   }
 }
+
+@media (max-width: 426px) {
+  .title-lokal {
+    padding: 0 10px;
+  }
+
+  .stickers {
+    flex-wrap: wrap;
+  }
+}
