@@ -53,4 +53,14 @@ h2 {
   }
 }
 
+@media (max-width: 426px) {
+  .menu {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
 
+  .menu img {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
