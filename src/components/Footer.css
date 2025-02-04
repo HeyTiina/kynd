@@ -24,3 +24,15 @@
   color: white;
   text-decoration: none;
 }
+
+@media (max-width: 769px) {
+  .container-footer {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .container-documents {
+    display: flex;
+    margin-top: 50px;
+  }
+}
