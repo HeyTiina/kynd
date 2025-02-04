@@ -63,4 +63,8 @@ h2 {
     width: 50%;
     margin: 0 auto;
   }
+
+  .menu-description {
+    margin: 20px 0px;
+  }
 }
