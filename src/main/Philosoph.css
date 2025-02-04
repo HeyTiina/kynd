@@ -65,3 +65,9 @@ h2 {
     width: 50%;
   }
 }
+
+@media (max-width: 426px) {
+  .phisoloph-description {
+    margin: 20px 0px;
+  }
+}
