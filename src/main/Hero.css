@@ -46,4 +46,14 @@
   .title {
     padding: 50px 0;
   }
+
+  .hero {
+    background-size: 70% auto;
+  }
+}
+
+@media (max-width: 376px) {
+  .hero {
+    background-size: 80% auto;
+  }
 }
