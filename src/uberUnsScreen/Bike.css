@@ -31,3 +31,13 @@
     padding: 0 100px;
   }
 }
+
+@media (max-width: 426px) {
+  .bike img {
+    width: 80%;
+  }
+
+  .bike p {
+    padding: 0 20px;
+  }
+}
