@@ -2,7 +2,7 @@
   background-color: white;
   display: grid;
   align-items: center;
-  grid-template-columns: 1fr 1fr; /* Esto define dos columnas de igual tamaño */
+  grid-template-columns: 1fr 1fr;
 }
 
 .phisoloph-description {
@@ -35,4 +35,22 @@ h2 {
 
 .philosoph img {
   width: 100%;
+}
+
+@media (max-width: 1025px) {
+  .philosoph {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.1fr auto;
+    padding: 20px;
+  }
+
+  .philosoph img {
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 60%;
+  }
+
+  .phisoloph-description{
+    margin: 40px;
+  }
 }
