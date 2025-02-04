@@ -43,3 +43,9 @@
 .carousel-control-next-icon:hover {
   opacity: 1; /* Hace que el control sea completamente visible cuando pasas el cursor */
 }
+
+@media (max-width: 1025px) {
+  .carousel {
+    width: 60%; /* Reduce el tamaño del slider, puedes ajustar este valor */
+  }
+}
