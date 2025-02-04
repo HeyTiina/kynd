@@ -40,10 +40,6 @@
   margin: 0 auto;
 }
 
-.text-column-menu {
-  width: 90%;
-}
-
 .text-column-menu h1 {
   border-bottom: 2px solid black;
   padding: 0 0 20px 0;
@@ -85,4 +81,15 @@
   .grid-container-menu {
     grid-template-columns: 1fr;
   }
+}
+
+@media (max-width: 426px) {
+  .title-menu h1 {
+    font-size: 90px;
+  }
+
+  .grid-container-menu {
+    padding: 50px 0; 
+  }
+
 }
