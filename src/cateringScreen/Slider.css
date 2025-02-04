@@ -51,10 +51,10 @@
 }
 @media (max-width: 426px) {
   .carousel-control-next {
-    width: 27%;
+    width: 30%;
   }
 
   .carousel {
-    width: 80%;
+    width: 70%;
   }
 }
