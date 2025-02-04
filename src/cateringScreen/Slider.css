@@ -58,3 +58,9 @@
     width: 70%;
   }
 }
+
+@media (max-width: 376px) {
+  .carousel-control-next {
+    width: 34.3%;
+  }
+}
