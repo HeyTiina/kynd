@@ -21,3 +21,13 @@
   width: 600px;
   margin: 0px auto;
 }
+
+@media (max-width: 1025px) {
+  .bike {
+    padding: 50px 0;
+  }
+
+  .bike p {
+    padding: 0 100px;
+  }
+}
