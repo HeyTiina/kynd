@@ -49,3 +49,12 @@
     width: 60%; /* Reduce el tamaño del slider, puedes ajustar este valor */
   }
 }
+@media (max-width: 426px) {
+  .carousel-control-next {
+    width: 27%;
+  }
+
+  .carousel {
+    width: 80%;
+  }
+}
