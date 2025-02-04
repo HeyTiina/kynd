@@ -62,7 +62,6 @@
   border-color: #ff66c4;
   border-radius: 10px;
   padding: 20px;
-  margin-top: 800px;
   color: white;
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
@@ -104,5 +103,38 @@
 
   .companies-logo {
     width: 200px;
+  }
+}
+
+@media (max-width: 426px) {
+  .title-catering {
+    margin: 0 30px;
+  }
+
+  .title-catering h1 {
+    font-size: 60px;
+  }
+
+  .title-catering p {
+    margin: 0px 10px;
+  }
+
+  .companies-logos {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .video-bagel {
+    top: 1230px;
+    right: 10px;
+    width: 25%;
+  }
+
+  .video {
+    width: 100%;
+  }
+
+  .Video-container a {
+    font-size: 12px;
   }
 }
