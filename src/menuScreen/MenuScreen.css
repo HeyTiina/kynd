@@ -80,3 +80,9 @@
   background-color: #a9c360 !important;
   border-color: #a9c360 !important;
 }
+
+@media (max-width: 769px) {
+  .grid-container-menu {
+    grid-template-columns: 1fr;
+  }
+}
