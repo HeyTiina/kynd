@@ -35,7 +35,7 @@
 }
 
 .carousel-control-next-icon {
-  left: 90px; /* Mueve el control prev hacia la izquierda */
+  left: 155px; /* Mueve el control prev hacia la izquierda */
   position: absolute;
 }
 
@@ -44,14 +44,30 @@
   opacity: 1; /* Hace que el control sea completamente visible cuando pasas el cursor */
 }
 
+@media (max-width: 1441px) {
+  .carousel-control-next-icon {
+    left: 86px; /* Mueve el control prev hacia la izquierda */
+  }
+}
+
 @media (max-width: 1025px) {
   .carousel {
     width: 60%; /* Reduce el tamaño del slider, puedes ajustar este valor */
   }
+  .carousel-control-next-icon {
+    left: 93px; 
+  }
 }
+
+@media (max-width: 769px) {
+  .carousel-control-next-icon {
+    left: 70px; 
+  }
+}
+
 @media (max-width: 426px) {
-  .carousel-control-next {
-    width: 30%;
+  .carousel-control-next-icon {
+    left: 45px; 
   }
 
   .carousel {
@@ -60,17 +76,17 @@
 }
 
 @media (max-width: 376px) {
-  .carousel-control-next {
-    width: 34.3%;
+  .carousel-control-next-icon {
+    left: 38px; 
   }
 }
 
 @media (max-width: 321px) {
-  .carousel-control-next {
-    width: 43%;
+  .carousel-control-next-icon {
+    left: 31px; 
   }
 
-   .carousel {
+  .carousel {
     width: 65%;
   }
 }
