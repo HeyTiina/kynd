@@ -36,3 +36,11 @@
     margin-top: 50px;
   }
 }
+
+@media (max-width: 426px) {
+  .container-documents {
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+}
