@@ -139,8 +139,20 @@
   }
 }
 
-@media (max-width: 321px) {
-.title-catering h1{
-  font-size: 50px;
+@media (max-width: 376px) {
+  .video-bagel {
+    top: 1200px;
+  }
 }
+
+@media (max-width: 321px) {
+  .title-catering h1 {
+    font-size: 50px;
+  }
+
+  .video-bagel {
+    top: 1260px;
+    right: 20px;
+    width: 20%;
+  }
 }
