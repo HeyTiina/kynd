@@ -3,7 +3,7 @@
   background-image: url("./img/bagel.png"); /* Agrega la ruta de tu imagen aquí */
   background-position: center; /* Centra la imagen dentro del contenedor */
   background-repeat: no-repeat; /* Evita que la imagen se repita */
-  background-size: 35% auto;
+  background-size: 30% auto;
 }
 
 .title {
@@ -26,6 +26,12 @@
   margin: 0;
 }
 
+@media (max-width: 1441px) {
+  .hero {
+    background-size: 35% auto;
+  }
+}
+
 @media (max-width: 1025px) {
   .hero {
     background-size: 50% auto;
@@ -33,6 +39,10 @@
 }
 
 @media (max-width: 769px) {
+  .hero {
+    background-size: 60% auto;
+  }
+
   .title {
     padding: 20px 0;
   }
