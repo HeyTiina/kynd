@@ -79,3 +79,14 @@ form button:hover {
     width: 100%;
   }
 }
+
+@media (max-width: 426px) {
+  form {
+    margin: 0px;
+    width: 100%;
+  }
+
+  .input-box .field {
+    width: 100%;
+  }
+}
