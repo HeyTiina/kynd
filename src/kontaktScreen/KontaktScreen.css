@@ -27,3 +27,9 @@
     margin: 10px 100px;
   }
 }
+
+@media (max-width: 769px) {
+  .title-kontakt p {
+    margin: 10px 20px;
+  }
+}
