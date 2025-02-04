@@ -32,3 +32,9 @@
 .catering-title a:hover {
   text-decoration: underline; /* add underline on hover (optional) */
 }
+
+@media (max-width: 769px) {
+  .catering-title {
+    padding: 100px;
+  }
+}
