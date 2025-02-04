@@ -39,7 +39,7 @@ form .input-box {
 
 .input-box .field.mess {
   height: 100px;
-  width: 96.8%;
+  width: 100%;
   resize: none;
 }
 
@@ -73,10 +73,6 @@ form button:hover {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 0px;
-  }
-
-  .input-box .field.mess {
-    width: 100%;
   }
 }
 
